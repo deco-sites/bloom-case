@@ -3,15 +3,15 @@
   "navigation": {
     "links": [
       {
-        "label": "Performance",
-        "url": "/performance"
+        "label": "Religião",
+        "url": "/religiao"
       },
       {
-        "label": "Culture",
-        "url": "/culture"
+        "url": "/futebol",
+        "label": "Futebol"
       },
       {
-        "label": "Customization",
+        "label": "Customização",
         "url": "/customization"
       }
     ],
