@@ -1,3 +1,15 @@
 {
-  "__resolveType": "site/sections/Footer.tsx"
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [],
+  "bottomLinks": [],
+  "social": [
+    {
+      "network": "Instagram",
+      "href": "https://www.instagram.com/bloomcasebrasil/"
+    }
+  ],
+  "subscribe": {},
+  "logo": {
+    "src": "https://data.decoassets.com/bloom-case/f73502a0-c393-403b-b26e-5e800dd103a4/Design_sem_nome__3_-removebg-preview.png"
+  }
 }
