@@ -26,7 +26,10 @@
       }
     },
     {
-      "__resolveType": "site/sections/Footer.tsx"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
