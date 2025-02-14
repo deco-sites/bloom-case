@@ -63,7 +63,7 @@ function SocialIcons() {
 }
 
 export default function BlogPost({ page }: Props) {
-  const { title, authors, image, date, content } = page?.post || DEFAULT_PROPS;
+  const { title, excerpt, image, date, content } = page?.post || DEFAULT_PROPS;
 
   const formattedDate = new Date(date).toLocaleDateString("en-US", {
     year: "numeric",
@@ -72,77 +72,37 @@ export default function BlogPost({ page }: Props) {
   });
 
   return (
-    <div className="w-full flex flex-col gap-20 container mx-auto px-4 md:px-0 py-12 lg:py-28">
-      <div className="w-full flex flex-col gap-12 max-w-3xl lg:mx-auto">
-        <h1 className="text-5xl font-bold">{title}</h1>
-        <div className="flex items-center gap-4">
-          <Image
-            className="object-cover w-14 h-14 rounded-full"
-            alt={authors[0]?.name}
-            src={authors[0]?.avatar || DEFAULT_AVATAR}
-            width={56}
-            height={56}
-          />
-          <div className="flex flex-col">
-            <p className="font-semibold text-base">
-              {authors.map((author) => author.name).join(", ")}
-            </p>
-            <p className="text-base">{formattedDate}</p>
-          </div>
-        </div>
-      </div>
+    <div className="w-[90%] mx-auto max-w-[1300px] md:flex md:flex-wrap md:justify-center items-start md:gap-4 container mx-auto px-4 md:px-0 py-4 lg:py-10">
       <Image
-        className="w-full object-cover aspect-video max-h-[600px] rounded-2xl"
+        className="w-full md:w-2/3 object-cover aspect-video max-h-[500px] max-w-[500px] rounded-2xl"
         width={600}
         src={image || ""}
       />
-      <div
-        class={CONTENT_STYLES}
-        dangerouslySetInnerHTML={{
-          __html: content,
-        }}
-      >
-      </div>
-      <div class="flex flex-col gap-10 max-w-3xl w-full mx-auto">
-        <div class="space-y-4">
-          <p class="text-lg font-bold">Share this post</p>
-          <div class="flex flex-col gap-8 md:flex-row justify-between">
-            <SocialIcons />
-            <div class="flex gap-2 text-white text-xs">
-              <p class="flex items-center bg-zinc-700 py-2 px-4 rounded-full">
-                Tag #1
-              </p>
-              <p class="flex items-center bg-zinc-700 py-2 px-4 rounded-full">
-                Tag #2
-              </p>
-              <p class="flex items-center bg-zinc-700 py-2 px-4 rounded-full">
-                Tag #3
-              </p>
+      <div className="md:w-1/3">
+        <div className="mt-4 w-full flex flex-col gap-5 max-w-3xl lg:mx-auto">
+          <h1 className="text-xl font-normal uppercase">{title}</h1>
+          <h2 className="text-xl font-bold mb-5">R$ {excerpt}</h2>
+        </div>
+
+        <div>
+          <p class="text-sm mb-1">Disponível para: </p>
+          <div class="flex gap-1 mb-4">
+            <div class="border border-gray-400 text-gray-400 w-fit p-1 text-xs">
+              Iphone 15
+            </div>
+            <div class="border border-gray-400 text-gray-400 w-fit p-1 text-xs">
+              Iphone 15
+            </div>
+            <div class="border border-gray-400 text-gray-400 w-fit p-1 text-xs">
+              Iphone 15
             </div>
           </div>
         </div>
-        {/* divider zinc-300 */}
-        <div class="w-full h-px bg-zinc-300"></div>
-        <div className="flex items-center gap-4">
-          <Image
-            className="object-cover w-14 h-14 rounded-full"
-            alt={authors[0]?.name}
-            src={authors[0]?.avatar || ""}
-            width={56}
-            height={56}
-          />
-          <div className="flex flex-col">
-            <p className="font-semibold text-base">
-              {authors[0].name}
-            </p>
-            <p className="text-base">
-              {`${authors[0].jobTitle ?? "Job Title"}, ${
-                authors[0].company || "Company"
-              }`}
-            </p>
-          </div>
-        </div>
+
+        <a href="https://www.instagram.com/bloomcasebrasil/" target="_blank" class="bg-[#608c82] cursor-pointer text-white w-full md:w-[230px] text-center p-2 block">Comprar</a>
+        <p className="text-xs text-gray-500 italic font-light mt-2">Após clicar em comprar, você será redirecionado(a) para nosso Instagram onde poderá seguir com a sua compra.</p>
       </div>
+
     </div>
   );
 }

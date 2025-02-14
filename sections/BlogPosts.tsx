@@ -35,7 +35,7 @@ function Container({ children }: {
   children: ComponentChildren;
 }) {
   return (
-    <div class="container lg:mx-auto lg:py-14 mx-2 py-12 text-sm">
+    <div class="w-[90%] mx-auto max-w-[1300px] lg:py-14 mx-2 py-12 text-sm">
       <div class="space-y-8">{children}</div>
     </div>
   );
@@ -68,14 +68,14 @@ export default function BlogPosts(
   return (
     <ContainerComponent>
       <>
-        <div class="gap-8 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
+        <div class="gap-3 md:gap-8 grid grid-cols-2 lg:grid-cols-4 md:grid-cols-2">
           {posts?.slice(from, to).map((post) => (
             <a
-              href={`/blog/${post.slug}`}
-              class="border border-secondary overflow-hidden rounded-lg"
+              href={`/produto/${post.slug}`}
+              class="border-none border-secondary overflow-hidden rounded-lg"
             >
               <Image
-                width={380}
+                width={274}
                 height={274}
                 class="object-fit w-full"
                 sizes="(max-width: 640px) 100vw, 30vw"
@@ -84,33 +84,10 @@ export default function BlogPosts(
                 decoding="async"
                 loading="lazy"
               />
-              <div class="p-6 space-y-4">
-                <div class="font-semibold">
-                  {calculateReadingTime(post.content.split(" ").length)}
-                </div>
-                <div class="space-y-2">
-                  <h3 class="text-2xl">{post.title}</h3>
-                  <p class="text-base">{post.excerpt}</p>
-                </div>
-                <div class="flex flex-wrap gap-2">
-                  {post.categories?.map((category) => (
-                    <div class="badge badge-lg badge-primary text-xs">
-                      {category.name}
-                    </div>
-                  ))}
-                </div>
-                <div class="flex flex-wrap gap-2">
-                  <span>
-                    {post.date
-                      ? new Date(post.date).toLocaleDateString("en-US", {
-                        month: "long",
-                        day: "numeric",
-                        year: "numeric",
-                      })
-                      : ""}
-                  </span>
-                  <span>•</span>
-                  <span>{post.authors[0]?.name}</span>
+              <div class="px-0 py-4 space-y-4">
+                <div>
+                  <h3 class="text-sm leading-[20px] text-black line-clamp-2">{post.title}</h3>
+                  <p class="text-xs mt-4 text-gray-800">R$ {post.excerpt}</p>
                 </div>
               </div>
             </a>
