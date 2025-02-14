@@ -58,6 +58,7 @@ export default function BlogPosts(
       pagination: { perPage, page: page + 1 },
     },
   });
+  
   function calculateReadingTime(words: number): string {
     const wordsPerMinute = 250;
     const estimatedTimeMinutes = words / wordsPerMinute;
