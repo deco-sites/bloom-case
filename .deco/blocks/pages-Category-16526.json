@@ -23,6 +23,12 @@
       }
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Benefits"
+      }
+    },
+    {
       "__resolveType": "Footer"
     }
   ],

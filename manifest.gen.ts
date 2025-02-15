@@ -6,38 +6,40 @@ import * as $$$$$$$$$$$0 from "./apps/deco/blog.ts";
 import * as $$$$$$$$$$$1 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$2 from "./apps/site.ts";
 import * as $$$0 from "./loaders/Stock.ts";
-import * as $$$$$$0 from "./sections/BlogPost.tsx";
-import * as $$$$$$1 from "./sections/BlogPosts.tsx";
-import * as $$$$$$2 from "./sections/Faq.tsx";
-import * as $$$$$$3 from "./sections/FollowInstagram.tsx";
-import * as $$$$$$4 from "./sections/Footer.tsx";
-import * as $$$$$$5 from "./sections/Header.tsx";
-import * as $$$$$$6 from "./sections/Hero.tsx";
-import * as $$$$$$7 from "./sections/ImageWithParagraph.tsx";
-import * as $$$$$$8 from "./sections/Logos.tsx";
-import * as $$$$$$9 from "./sections/MainPost.tsx";
-import * as $$$$$$10 from "./sections/Testimonials.tsx";
-import * as $$$$$$11 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$12 from "./sections/Tipbar.tsx";
+import * as $$$$$$0 from "./sections/Benefits.tsx";
+import * as $$$$$$1 from "./sections/BlogPost.tsx";
+import * as $$$$$$2 from "./sections/BlogPosts.tsx";
+import * as $$$$$$3 from "./sections/Faq.tsx";
+import * as $$$$$$4 from "./sections/FollowInstagram.tsx";
+import * as $$$$$$5 from "./sections/Footer.tsx";
+import * as $$$$$$6 from "./sections/Header.tsx";
+import * as $$$$$$7 from "./sections/Hero.tsx";
+import * as $$$$$$8 from "./sections/ImageWithParagraph.tsx";
+import * as $$$$$$9 from "./sections/Logos.tsx";
+import * as $$$$$$10 from "./sections/MainPost.tsx";
+import * as $$$$$$11 from "./sections/Testimonials.tsx";
+import * as $$$$$$12 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$13 from "./sections/Tipbar.tsx";
 
 const manifest = {
   "loaders": {
     "site/loaders/Stock.ts": $$$0,
   },
   "sections": {
-    "site/sections/BlogPost.tsx": $$$$$$0,
-    "site/sections/BlogPosts.tsx": $$$$$$1,
-    "site/sections/Faq.tsx": $$$$$$2,
-    "site/sections/FollowInstagram.tsx": $$$$$$3,
-    "site/sections/Footer.tsx": $$$$$$4,
-    "site/sections/Header.tsx": $$$$$$5,
-    "site/sections/Hero.tsx": $$$$$$6,
-    "site/sections/ImageWithParagraph.tsx": $$$$$$7,
-    "site/sections/Logos.tsx": $$$$$$8,
-    "site/sections/MainPost.tsx": $$$$$$9,
-    "site/sections/Testimonials.tsx": $$$$$$10,
-    "site/sections/Theme/Theme.tsx": $$$$$$11,
-    "site/sections/Tipbar.tsx": $$$$$$12,
+    "site/sections/Benefits.tsx": $$$$$$0,
+    "site/sections/BlogPost.tsx": $$$$$$1,
+    "site/sections/BlogPosts.tsx": $$$$$$2,
+    "site/sections/Faq.tsx": $$$$$$3,
+    "site/sections/FollowInstagram.tsx": $$$$$$4,
+    "site/sections/Footer.tsx": $$$$$$5,
+    "site/sections/Header.tsx": $$$$$$6,
+    "site/sections/Hero.tsx": $$$$$$7,
+    "site/sections/ImageWithParagraph.tsx": $$$$$$8,
+    "site/sections/Logos.tsx": $$$$$$9,
+    "site/sections/MainPost.tsx": $$$$$$10,
+    "site/sections/Testimonials.tsx": $$$$$$11,
+    "site/sections/Theme/Theme.tsx": $$$$$$12,
+    "site/sections/Tipbar.tsx": $$$$$$13,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,

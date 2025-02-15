@@ -35,6 +35,9 @@
       }
     },
     {
+      "__resolveType": "Benefits"
+    },
+    {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "FollowInstagram"
