@@ -6,13 +6,13 @@
     }
   ],
   "seo": {
-    "titleTemplate": "%s | deco.cx",
-    "descriptionTemplate": "%s | Deco.cx",
+    "titleTemplate": "%s | Bloom Case",
+    "descriptionTemplate": "%s | Bloom Case",
     "type": "website",
-    "title": "Blog",
-    "description": "Improve your page performance with deco.cx",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5018/c8188deb-9ed0-4394-8ede-af8fb4263ba4",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5018/71c97b9c-b94a-4cf5-8120-4bb7b99b21bb"
+    "title": "Capinhas Personalizadas",
+    "description": "Milhares de opções de capas para iPhone e Samsung! Personalize com suas fotos, frases e designs. Encontre a capa perfeita para você.",
+    "image": "https://data.decoassets.com/bloom-case/ef239da6-a3d5-4e4f-82d6-52626a0caed8/Design-sem-nome-(3).png",
+    "favicon": "https://data.decoassets.com/bloom-case/ef239da6-a3d5-4e4f-82d6-52626a0caed8/Design-sem-nome-(3).png"
   },
   "global": [
     {
