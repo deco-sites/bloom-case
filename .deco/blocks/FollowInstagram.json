@@ -1,0 +1,16 @@
+{
+  "__resolveType": "site/sections/FollowInstagram.tsx",
+  "backgroundColor": "#6c6a6a",
+  "textColor": "#615c5c",
+  "columns": 4,
+  "profiles": [
+    {
+      "username": "bloomcasebrasil",
+      "bio": "Bloom Case - Capinhas",
+      "profilePicture": "https://data.decoassets.com/bloom-case/35190f57-6837-44dd-a30e-1a7f3882125a/ImageWidget.png"
+    }
+  ],
+  "showFollowers": false,
+  "showPosts": false,
+  "title": "<p></p>"
+}
