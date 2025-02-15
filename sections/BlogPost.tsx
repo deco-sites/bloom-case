@@ -1,12 +1,14 @@
 import { type BlogPost, BlogPostPage } from "apps/blog/types.ts";
 import Image from "apps/website/components/Image.tsx";
 import Icon from "site/components/ui/Icon.tsx";
+import { Device } from "site/loaders/Stock.ts";
 
 interface Props {
   /**
    * @description The description of name.
    */
   page?: BlogPostPage | null;
+  stock: Device[];
 }
 
 const PARAGRAPH_STYLES = "[&_p]:leading-[150%] [&_*]:mb-4";
@@ -62,7 +64,7 @@ function SocialIcons() {
   );
 }
 
-export default function BlogPost({ page }: Props) {
+export default function BlogPost({ page, stock }: Props) {
   const { title, excerpt, image, date, content } = page?.post || DEFAULT_PROPS;
 
   const formattedDate = new Date(date).toLocaleDateString("en-US", {
@@ -70,6 +72,23 @@ export default function BlogPost({ page }: Props) {
     month: "long",
     day: "numeric",
   });
+
+  console.log('stock', stock);
+
+  let quantityGeneralAvailable = 0;
+  let modelsWithStock:string[] = [];
+
+  stock.forEach((devices) => {
+    devices.models.forEach((model) => {
+      if (model.quantity > 0 && model.showOnSite) {
+        quantityGeneralAvailable++;
+
+        if (!modelsWithStock.includes(devices.name)) {
+          modelsWithStock.push(devices.name);
+        }
+      }
+    })
+  })
 
   return (
     <div className="w-[90%] mx-auto max-w-[1300px] md:flex md:flex-wrap md:justify-center items-start md:gap-4 container mx-auto px-4 md:px-0 py-4 lg:py-10">
@@ -83,19 +102,12 @@ export default function BlogPost({ page }: Props) {
           <h1 className="text-xl font-normal uppercase">{title}</h1>
           <h2 className="text-xl font-bold mb-5">R$ {excerpt}</h2>
         </div>
-
         <div>
           <p class="text-sm mb-1">Disponível para: </p>
           <div class="flex gap-1 mb-4">
-            <div class="border border-gray-400 text-gray-400 w-fit p-1 text-xs">
-              Iphone 15
-            </div>
-            <div class="border border-gray-400 text-gray-400 w-fit p-1 text-xs">
-              Iphone 15
-            </div>
-            <div class="border border-gray-400 text-gray-400 w-fit p-1 text-xs">
-              Iphone 15
-            </div>
+            {
+              modelsWithStock.map((device) => <div class="border border-gray-400 text-gray-400 w-fit p-1 text-xs">{device}</div>)
+            }
           </div>
         </div>
 

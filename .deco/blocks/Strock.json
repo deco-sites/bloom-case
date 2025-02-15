@@ -1,0 +1,35 @@
+{
+  "__resolveType": "site/loaders/Stock.ts",
+  "devices": [
+    {
+      "models": [
+        {
+          "name": "Case Simples",
+          "quantity": 2,
+          "showOnSite": true
+        }
+      ],
+      "name": "Iphone 14"
+    },
+    {
+      "models": [
+        {
+          "name": "Case Simples",
+          "quantity": 6,
+          "showOnSite": true
+        }
+      ],
+      "name": "Iphone 14 Pro Max"
+    },
+    {
+      "models": [
+        {
+          "name": "Case Simples",
+          "quantity": 0,
+          "showOnSite": true
+        }
+      ],
+      "name": "Iphone 08"
+    }
+  ]
+}

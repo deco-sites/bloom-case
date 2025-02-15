@@ -1,6 +1,6 @@
 {
   "name": "Blog Post Page",
-  "path": "/blog/:slug",
+  "path": "/produto/:slug",
   "sections": [
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -23,6 +23,9 @@
           "__resolveType": "website/functions/requestToParam.ts",
           "param": "slug"
         }
+      },
+      "stock": {
+        "__resolveType": "Strock"
       }
     },
     {
