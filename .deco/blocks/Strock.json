@@ -4,18 +4,38 @@
     {
       "models": [
         {
-          "name": "Case Simples",
-          "quantity": 2,
+          "name": "Soft",
+          "quantity": 3,
           "showOnSite": true
         }
       ],
-      "name": "Iphone 14"
+      "name": "Iphone 15 Pro Max"
     },
     {
       "models": [
         {
-          "name": "Case Simples",
-          "quantity": 6,
+          "name": "Soft",
+          "quantity": 3,
+          "showOnSite": true
+        }
+      ],
+      "name": "Iphone 15 Pro"
+    },
+    {
+      "models": [
+        {
+          "name": "Soft",
+          "quantity": 3,
+          "showOnSite": true
+        }
+      ],
+      "name": "Iphone 15"
+    },
+    {
+      "models": [
+        {
+          "name": "Soft",
+          "quantity": 3,
           "showOnSite": true
         }
       ],
@@ -24,12 +44,157 @@
     {
       "models": [
         {
-          "name": "Case Simples",
-          "quantity": 0,
+          "name": "Soft",
+          "quantity": 3,
           "showOnSite": true
         }
       ],
-      "name": "Iphone 08"
+      "name": "Iphone 14 Pro"
+    },
+    {
+      "models": [
+        {
+          "name": "Soft",
+          "quantity": 3,
+          "showOnSite": true
+        }
+      ],
+      "name": "Iphone 14"
+    },
+    {
+      "models": [
+        {
+          "name": "Soft",
+          "quantity": 3,
+          "showOnSite": true
+        }
+      ],
+      "name": "Iphone 13 Pro Max"
+    },
+    {
+      "models": [
+        {
+          "name": "Soft",
+          "quantity": 3,
+          "showOnSite": true
+        }
+      ],
+      "name": "Iphone 13 Pro"
+    },
+    {
+      "models": [
+        {
+          "name": "Soft",
+          "quantity": 3,
+          "showOnSite": true
+        }
+      ],
+      "name": "Iphone 13"
+    },
+    {
+      "models": [
+        {
+          "name": "Soft",
+          "quantity": 6,
+          "showOnSite": true
+        }
+      ],
+      "name": "Iphone 12 Pro Max"
+    },
+    {
+      "models": [
+        {
+          "name": "Soft",
+          "quantity": 3,
+          "showOnSite": true
+        }
+      ],
+      "name": "Iphone 12 Pro"
+    },
+    {
+      "models": [
+        {
+          "name": "Soft",
+          "quantity": 3,
+          "showOnSite": true
+        },
+        {
+          "name": "Lisa MagSafe",
+          "quantity": 1,
+          "showOnSite": false
+        }
+      ],
+      "name": "Iphone 12"
+    },
+    {
+      "models": [
+        {
+          "name": "Rígida Lisa",
+          "quantity": 3,
+          "showOnSite": true
+        }
+      ],
+      "name": "Iphone 11 Pro Max"
+    },
+    {
+      "models": [
+        {
+          "name": "Rígida Lisa",
+          "quantity": 3,
+          "showOnSite": true
+        }
+      ],
+      "name": "Iphone 11 Pro"
+    },
+    {
+      "models": [
+        {
+          "name": "Rígida Lisa",
+          "quantity": 3,
+          "showOnSite": true
+        }
+      ],
+      "name": "Iphone 11"
+    },
+    {
+      "models": [
+        {
+          "name": "Rígida Lisa",
+          "quantity": 3,
+          "showOnSite": true
+        }
+      ],
+      "name": "Iphone XR"
+    },
+    {
+      "models": [
+        {
+          "name": "Rígida Lisa",
+          "quantity": 3,
+          "showOnSite": true
+        }
+      ],
+      "name": "Samsung 23 Ultra"
+    },
+    {
+      "models": [
+        {
+          "name": "Rígida Lisa",
+          "quantity": 3,
+          "showOnSite": true
+        }
+      ],
+      "name": "Samsung 23"
+    },
+    {
+      "models": [
+        {
+          "name": "Rígida Lisa",
+          "quantity": 3,
+          "showOnSite": true
+        }
+      ],
+      "name": "Samsung 23"
     }
   ]
 }
