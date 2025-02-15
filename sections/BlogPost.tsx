@@ -104,7 +104,7 @@ export default function BlogPost({ page, stock }: Props) {
         </div>
         <div>
           <p class="text-sm mb-1">Disponível para: </p>
-          <div class="flex gap-1 mb-4">
+          <div class="flex gap-1 mb-4 flex-wrap">
             {
               modelsWithStock.map((device) => <div class="border border-gray-400 text-gray-400 w-fit p-1 text-xs">{device}</div>)
             }

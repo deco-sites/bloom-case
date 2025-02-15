@@ -194,7 +194,17 @@
           "showOnSite": true
         }
       ],
-      "name": "Samsung 23"
+      "name": "Samsung 21 Ultra"
+    },
+    {
+      "models": [
+        {
+          "name": "Rígida Lisa",
+          "quantity": 3,
+          "showOnSite": true
+        }
+      ],
+      "name": "Samsung 21"
     }
   ]
 }

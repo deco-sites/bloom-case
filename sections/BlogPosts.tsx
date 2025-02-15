@@ -88,7 +88,7 @@ export default function BlogPosts(
               <div class="px-0 py-4 space-y-4">
                 <div>
                   <h3 class="text-sm leading-[20px] text-black line-clamp-2">{post.title}</h3>
-                  <p class="text-xs mt-4 text-gray-800">R$ {post.excerpt}</p>
+                  <p class="text-sm mt-4 text-gray-800">R$ {post.excerpt}</p>
                 </div>
               </div>
             </a>

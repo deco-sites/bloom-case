@@ -66,7 +66,7 @@ export default function Haader({
   },
 }: Nav) {
   return (
-    <nav class="w-[90%] max-w-[1300px] mx-auto lg:px-0 px-4">
+    <nav class="w-[90%] max-w-[1300px] mx-auto pt-9 lg:px-0 px-4">
       <div class="flex gap-8 items-center justify-between py-4">
         <a href="/">
           <Image src={logo.src || ""} width={120} height={70} alt={logo.alt} />
