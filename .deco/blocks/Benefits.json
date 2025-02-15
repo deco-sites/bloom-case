@@ -2,7 +2,7 @@
   "__resolveType": "site/sections/Benefits.tsx",
   "differentials": [
     {
-      "title": "Sem logos Indesejadas",
+      "title": "Sem Logos Indesejadas",
       "description": "Não colocamos nossa logo em sua Case",
       "icon": "https://data.decoassets.com/bloom-case/ae831f64-3560-4f5f-8d00-d254e2f51a4d/Gemini_Generated_Image_di6y43di6y43di6y-removebg-preview.png"
     },
@@ -16,5 +16,6 @@
       "description": "Há possibilidade de você colocar adicionar fotos da sua galeria de imagens sem custos adicionais. Nos chame no instagram!",
       "icon": "https://data.decoassets.com/bloom-case/b986ba79-0353-4148-be90-5392e514804b/Gemini_Generated_Image_9q4sb69q4sb69q4s__1_-removebg-preview.png"
     }
-  ]
+  ],
+  "showTitle": true
 }
