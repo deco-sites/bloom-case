@@ -40,7 +40,10 @@
       "__resolveType": "site/sections/BlogPosts.tsx",
       "posts": {
         "__resolveType": "blog/loaders/BlogpostList.ts",
-        "count": 6
+        "count": 100
+      },
+      "pagination": {
+        "perPage": 8
       }
     },
     {
