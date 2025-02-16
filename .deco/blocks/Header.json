@@ -7,8 +7,28 @@
         "url": "/religiao"
       },
       {
-        "url": "/futebol",
-        "label": "Futebol"
+        "url": "/arte",
+        "label": "Arte"
+      },
+      {
+        "label": "Colagem",
+        "url": "colagem"
+      },
+      {
+        "label": "Natureza",
+        "url": "natureza"
+      },
+      {
+        "label": "Wallpaper",
+        "url": "wallpaper"
+      },
+      {
+        "label": "Foto Real",
+        "url": "foto-real"
+      },
+      {
+        "label": "Ilustração",
+        "url": "ilustracao"
       },
       {
         "label": "Customização",

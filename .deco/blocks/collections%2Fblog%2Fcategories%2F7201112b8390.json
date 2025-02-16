@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/7201112b8390",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Ilustração",
+    "slug": "ilustracao"
+  }
+}

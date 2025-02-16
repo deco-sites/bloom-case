@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/6ed93ad19443",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Wallpaper",
+    "slug": "wallpaper"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "collections/blog/posts/c32b2e1210f4",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Natureza",
+        "slug": "natureza"
+      },
+      {
+        "name": "Ilustração",
+        "slug": "ilustracao"
+      }
+    ],
+    "extraProps": [],
+    "title": "Case Pássaros em Árvore",
+    "excerpt": "69,99",
+    "image": "https://data.decoassets.com/bloom-case/c1698f4b-1c74-4966-b6bb-25b9badd40a9/Passaros.png",
+    "alt": "Foto de <a href=\"https://unsplash.com/pt-br/@bostonpubliclibrary?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Boston Public Library</a> na <a href=\"https://unsplash.com/pt-br/fotografias/passaro-marrom-e-preto-na-planta-verde-YoK5pBcSY8s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>       ",
+    "date": "2025-02-18",
+    "slug": "passaros-na-arvore",
+    "content": "<p>.</p>"
+  }
+}

@@ -73,8 +73,6 @@ export default function BlogPost({ page, stock }: Props) {
     day: "numeric",
   });
 
-  console.log('stock', stock);
-
   let quantityGeneralAvailable = 0;
   let modelsWithStock:string[] = [];
 
@@ -91,9 +89,9 @@ export default function BlogPost({ page, stock }: Props) {
   })
 
   return (
-    <div className="w-[90%] mx-auto max-w-[1300px] md:flex md:flex-wrap md:justify-center items-start md:gap-4 container mx-auto px-4 md:px-0 py-4 lg:py-10">
+    <div className="w-[90%] mx-auto max-w-[1300px] md:flex md:flex-wrap md:justify-center items-start md:gap-4 container mx-auto px-4 md:px-0 py-4 lg:py-5">
       <Image
-        className="w-full md:w-2/3 object-cover aspect-video max-h-[500px] max-w-[500px] rounded-2xl"
+        className="w-full md:w-2/3 object-cover max-h-[500px] max-w-[500px] rounded-2xl"
         width={600}
         src={image || ""}
       />

@@ -1,0 +1,33 @@
+{
+  "name": "collections/blog/posts/b0d7c6164a70",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Colagem",
+        "slug": "colagem"
+      },
+      {
+        "name": "Arte",
+        "slug": "arte"
+      }
+    ],
+    "extraProps": [],
+    "image": "https://data.decoassets.com/bloom-case/3efa5591-3e01-4907-8f66-12d0e4f4b9ba/Collagem-2.png",
+    "title": "Case Colagem Pintura",
+    "excerpt": "69,99",
+    "date": "2025-01-29",
+    "slug": "colagem-pintura",
+    "content": "<p>.</p>",
+    "alt": "Foto de <a href=\"https://unsplash.com/pt-br/@vojtechbruzek?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Vojtech Bruzek</a> na <a href=\"https://unsplash.com/pt-br/fotografias/pintura-abstrata-verde-e-branca-amarela-mCjA1I8SlS8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>       "
+  }
+}

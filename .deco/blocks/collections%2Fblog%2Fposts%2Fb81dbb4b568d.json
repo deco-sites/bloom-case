@@ -1,0 +1,29 @@
+{
+  "name": "collections/blog/posts/b81dbb4b568d",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Colagem",
+        "slug": "colagem"
+      }
+    ],
+    "extraProps": [],
+    "title": "Case Colagem de Revistas",
+    "image": "https://data.decoassets.com/bloom-case/5fcbeaab-7788-45fb-86b0-43a05bb284d1/Collagem-1.png",
+    "excerpt": "69,99",
+    "date": "2025-02-26",
+    "slug": "colagem-revistas",
+    "content": "<p>.</p>",
+    "alt": "Foto de <a href=\"https://unsplash.com/pt-br/@jazminantoinette?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Jazmin Quaynor</a> na <a href=\"https://unsplash.com/pt-br/fotografias/pessoa-em-calcas-pretas-e-sapatos-pretos-em-pe-no-chao-coberto-de-neve-bm9zWKi_c9Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>       "
+  }
+}

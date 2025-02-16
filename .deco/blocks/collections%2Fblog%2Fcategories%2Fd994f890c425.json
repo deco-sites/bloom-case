@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/d994f890c425",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Natureza",
+    "slug": "natureza"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "collections/blog/posts/de7c079be6bc",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Foto Real",
+        "slug": "foto-real"
+      },
+      {
+        "name": "Wallpaper",
+        "slug": "wallpaper"
+      }
+    ],
+    "extraProps": [],
+    "title": "Case Balões no Céu",
+    "alt": "Foto de <a href=\"https://unsplash.com/pt-br/@sadswim?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">ian dooley</a> na <a href=\"https://unsplash.com/pt-br/fotografias/baloes-de-ar-quente-variados-voando-em-alta-altitude-durante-o-dia-hpTH5b6mo2s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>",
+    "image": "https://data.decoassets.com/bloom-case/4c5bbd62-9f02-46c2-90c4-fd4a56d99823/Balao.png",
+    "excerpt": "69,99",
+    "slug": "baloes-no-ceu",
+    "date": "2025-02-13",
+    "content": "<p>.</p>"
+  }
+}

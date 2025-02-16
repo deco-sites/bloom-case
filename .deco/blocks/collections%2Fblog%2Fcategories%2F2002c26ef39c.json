@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/2002c26ef39c",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Foto Real",
+    "slug": "foto-real"
+  }
+}

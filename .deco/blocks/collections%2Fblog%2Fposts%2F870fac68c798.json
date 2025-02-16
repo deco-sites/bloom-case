@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/870fac68c798",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Colagem",
+        "slug": "colagem"
+      }
+    ],
+    "extraProps": [],
+    "image": "https://data.decoassets.com/bloom-case/d5787181-6ffb-4b43-bd33-1fb2d4263d51/colagem-3.png",
+    "title": "Case Colagem Revista em Quadrinhos",
+    "excerpt": "69.99",
+    "date": "2025-02-13",
+    "slug": "colagem-revista-em-quadrinhos",
+    "content": "<p>.</p>"
+  }
+}

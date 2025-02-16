@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/c86278fbb233",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Colagem",
+    "slug": "colagem"
+  }
+}

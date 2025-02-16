@@ -2387,9 +2387,6 @@ html {
 .aspect-\[156\/87\] {
   aspect-ratio: 156/87;
 }
-.aspect-video {
-  aspect-ratio: 16 / 9;
-}
 .h-0 {
   height: 0px;
 }
@@ -3692,11 +3689,6 @@ html {
     padding-right: 4rem;
   }
 
-  .lg\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
   .lg\:py-14 {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
@@ -3705,6 +3697,11 @@ html {
   .lg\:py-28 {
     padding-top: 7rem;
     padding-bottom: 7rem;
+  }
+
+  .lg\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
   }
 
   .lg\:pb-16 {
