@@ -42,7 +42,7 @@ function Container({ children }: {
 }
 export default function BlogPosts(
   {
-    cta = { text: "Show more" },
+    cta = { text: "Ver mais" },
     posts,
     pagination: { page = 0, perPage = 6 } = {},
   }: Props,
@@ -59,6 +59,16 @@ export default function BlogPosts(
     },
   });
   
+  let newPostOrder:BlogPost[] = []
+  posts?.forEach((post) => {
+    if (post.title?.includes("Personalize")) {
+      newPostOrder.unshift(post);
+    } else {
+      newPostOrder.push(post);
+    }
+  })
+
+
   function calculateReadingTime(words: number): string {
     const wordsPerMinute = 250;
     const estimatedTimeMinutes = words / wordsPerMinute;
@@ -70,29 +80,33 @@ export default function BlogPosts(
     <ContainerComponent>
       <>
         <div class="gap-3 md:gap-8 grid grid-cols-2 lg:grid-cols-4 md:grid-cols-2">
-          {posts?.slice(from, to).map((post) => (
-            <a
-              href={`/produto/${post.slug}`}
-              class="border-none border-secondary overflow-hidden rounded-lg"
-            >
-              <Image
-                width={274}
-                height={274}
-                class="object-fit w-full"
-                sizes="(max-width: 640px) 100vw, 30vw"
-                src={post.image || ""}
-                alt={post.image}
-                decoding="async"
-                loading="lazy"
-              />
-              <div class="px-0 py-4 space-y-4">
-                <div>
-                  <h3 class="text-sm leading-[20px] text-black line-clamp-2">{post.title}</h3>
-                  <p class="text-sm mt-4 text-gray-800">R$ {post.excerpt}</p>
-                </div>
-              </div>
-            </a>
-          ))}
+          {newPostOrder?.slice(from, to).map((post) => { 
+            if (post.categories.length > 0 && post.title.length > 0) {
+              return (
+                <a
+                  href={`/produto/${post.slug}`}
+                  class="border-none border-secondary overflow-hidden rounded-lg"
+                >
+                  <Image
+                    width={274}
+                    height={274}
+                    class="object-fit w-full"
+                    sizes="(max-width: 640px) 100vw, 30vw"
+                    src={post.image || ""}
+                    alt={post.image}
+                    decoding="async"
+                    loading="lazy"
+                  />
+                  <div class="px-0 py-4 space-y-4">
+                    <div>
+                      <h3 class="text-sm leading-[20px] text-black line-clamp-2">{post.title}</h3>
+                      <p class="text-sm mt-4 text-gray-800">R$ {post.excerpt}</p>
+                    </div>
+                  </div>
+                </a>
+              )
+            }
+          })}
         </div>
         {posts && to < posts.length && (
           <div class="flex justify-center w-full" id={postList}>
