@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/46d52d6f5a3c",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Natureza",
+        "slug": "natureza"
+      },
+      {
+        "name": "Ilustração",
+        "slug": "ilustracao"
+      },
+      {
+        "name": "Arte",
+        "slug": "arte"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-03-03",
+    "slug": "ondas-no-oceano-ilustracao",
+    "title": "Case Ondas no Oceano Ilustração",
+    "excerpt": "69,99",
+    "content": "<p> </p>",
+    "image": "https://data.decoassets.com/bloom-case/8dc12f38-948a-464d-9247-4602a969bf0a/Ondas-no-Oceano.png"
+  }
+}

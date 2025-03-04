@@ -1,0 +1,32 @@
+{
+  "name": "collections/blog/posts/97d327381a90",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Arte",
+        "slug": "arte"
+      },
+      {
+        "name": "Wallpaper",
+        "slug": "wallpaper"
+      }
+    ],
+    "extraProps": [],
+    "title": "Case Dinheiro Enrolado",
+    "excerpt": "69,99",
+    "image": "https://data.decoassets.com/bloom-case/8ff3bb63-7db4-45e7-8fd1-38f5fb5ac56c/Dinheiro-Enrolado.png",
+    "date": "2025-03-03",
+    "slug": "dinheiro-enrolado",
+    "content": "<p> </p>"
+  }
+}

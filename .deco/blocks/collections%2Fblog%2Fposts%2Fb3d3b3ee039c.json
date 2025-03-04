@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/b3d3b3ee039c",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Arte",
+        "slug": "arte"
+      },
+      {
+        "name": "Natureza",
+        "slug": "natureza"
+      },
+      {
+        "name": "Ilustração",
+        "slug": "ilustracao"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-03-03",
+    "slug": "lago-nevado-ilustracao",
+    "content": "<p> </p>",
+    "title": "Case Lago Nevado Ilustração",
+    "excerpt": "69,99",
+    "image": "https://data.decoassets.com/bloom-case/0b0e96b6-0bd9-4296-b6ce-f58ba2bb5908/Lago-Nevado.png"
+  }
+}
