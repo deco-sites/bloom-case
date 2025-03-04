@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/f8f49a5d91f7",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Wallpaper",
+        "slug": "wallpaper"
+      },
+      {
+        "name": "Ilustração",
+        "slug": "ilustracao"
+      },
+      {
+        "name": "Arte",
+        "slug": "arte"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-03-03",
+    "slug": "sistema-solar-ilustracao",
+    "content": "<p> </p>",
+    "image": "https://data.decoassets.com/bloom-case/ccef8049-d528-4b4d-bfb3-9248cd634ee8/Sistema-Solar.png",
+    "title": "Case Sistema Solar Ilustração",
+    "excerpt": "69,99"
+  }
+}

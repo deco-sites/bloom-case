@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/4b16ad9fda61",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Natureza",
+        "slug": "natureza"
+      },
+      {
+        "name": "Arte",
+        "slug": "arte"
+      },
+      {
+        "name": "Ilustração",
+        "slug": "ilustracao"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-03-03",
+    "slug": "trem-na-floresta-ilustracao",
+    "title": "Case Trem na Floresta Ilustração",
+    "excerpt": "69,99",
+    "image": "https://data.decoassets.com/bloom-case/e61af49a-d70b-4a7a-b2cf-4800a8d28f0d/Trem-na-Floresta.png",
+    "content": "<p> </p>"
+  }
+}
