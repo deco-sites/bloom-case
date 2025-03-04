@@ -1,0 +1,32 @@
+{
+  "name": "collections/blog/posts/9f787d931ac9",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Natureza",
+        "slug": "natureza"
+      },
+      {
+        "name": "Ilustração",
+        "slug": "ilustracao"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-03-03",
+    "slug": "ceu-azul-marinho",
+    "title": "Case Céu Azul Marinho",
+    "excerpt": "69,99",
+    "image": "https://data.decoassets.com/bloom-case/6c2eb91a-1d04-44f8-b1e0-68060c407562/Ceu-Azul-Marinho.png",
+    "content": "<p> </p>"
+  }
+}

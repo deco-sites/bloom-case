@@ -1,0 +1,32 @@
+{
+  "name": "collections/blog/posts/7150b4a811af",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Ilustração",
+        "slug": "ilustracao"
+      },
+      {
+        "name": "Arte",
+        "slug": "arte"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-03-03",
+    "slug": "corrida-de-carros",
+    "title": "Case Corrida de Carros",
+    "excerpt": "69,99",
+    "image": "https://data.decoassets.com/bloom-case/caf4a2c2-622b-4cc1-9f9d-1416b40604a9/Corrida-de-Carros.png",
+    "content": "<p> </p>"
+  }
+}
