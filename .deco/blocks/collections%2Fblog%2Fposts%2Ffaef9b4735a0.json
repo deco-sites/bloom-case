@@ -1,0 +1,32 @@
+{
+  "name": "collections/blog/posts/faef9b4735a0",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Gamer",
+        "slug": "gamer"
+      },
+      {
+        "name": "Ilustração",
+        "slug": "ilustracao"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-03-03",
+    "slug": "personagem-omen",
+    "content": "<p> </p>",
+    "title": "Case Personagem Omen",
+    "excerpt": "69,99",
+    "image": "https://data.decoassets.com/bloom-case/2005a527-cd20-4c61-b306-774304ad4102/Omen.png"
+  }
+}

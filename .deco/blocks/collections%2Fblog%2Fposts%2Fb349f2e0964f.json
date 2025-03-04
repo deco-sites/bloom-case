@@ -1,0 +1,32 @@
+{
+  "name": "collections/blog/posts/b349f2e0964f",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Gamer",
+        "slug": "gamer"
+      },
+      {
+        "name": "Ilustração",
+        "slug": "ilustracao"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-03-03",
+    "slug": "personagem-gekko",
+    "title": "Case Personagem Gekko",
+    "excerpt": "69,99",
+    "image": "https://data.decoassets.com/bloom-case/f0998459-14ae-4d23-8b6a-e1f8301a1187/Gekko.png",
+    "content": "<p> </p>"
+  }
+}
