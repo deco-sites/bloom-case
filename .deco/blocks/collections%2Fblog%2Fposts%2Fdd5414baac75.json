@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/dd5414baac75",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Customização",
+        "slug": "customization"
+      }
+    ],
+    "extraProps": [],
+    "title": "Case Colagem de Fotos",
+    "excerpt": "69,99",
+    "date": "2025-03-02",
+    "slug": "colagem-fotos-",
+    "content": "<p><br>É possível alterar a cor de fundo conforme sua preferência.<br>Pelo Instagram, você deverá informar as fotos que deseja incluir.</p>",
+    "image": "https://data.decoassets.com/bloom-case/e2b638e9-86b4-413f-b63a-3de28ca1aa5b/customizacao---Colagem-de-Fotos.png"
+  }
+}

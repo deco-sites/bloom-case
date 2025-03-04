@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/c920fe1c1d48",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Arte",
+        "slug": "arte"
+      }
+    ],
+    "extraProps": [],
+    "title": "Case Criação de Adão Michelangelo",
+    "excerpt": "69,99",
+    "date": "2025-03-03",
+    "slug": "criacao-de-adao-michelangelo",
+    "content": "<p> </p>",
+    "image": "https://data.decoassets.com/bloom-case/b7fe9dfa-03ff-42dd-90e6-0a7f55c84910/A-criacao-de-Adao.png"
+  }
+}
