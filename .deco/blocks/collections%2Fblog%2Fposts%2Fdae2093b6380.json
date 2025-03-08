@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/dae2093b6380",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Futebol",
+        "slug": "futebol"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-03-08",
+    "slug": "santos-fundo-com-torcida",
+    "content": "<p> </p>",
+    "excerpt": "69,99",
+    "title": "Case Santos Fundo com Torcida",
+    "image": "https://data.decoassets.com/bloom-case/f3e07eb5-ffe1-4d0e-9557-bd6c08c1bd6c/Santos---fundo-com-torcida.png"
+  }
+}
