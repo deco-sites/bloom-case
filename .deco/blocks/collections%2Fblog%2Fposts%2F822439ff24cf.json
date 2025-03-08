@@ -1,5 +1,5 @@
 {
-  "name": "collections/blog/posts/dd5414baac75",
+  "name": "collections/blog/posts/822439ff24cf",
   "__resolveType": "blog/loaders/Blogpost.ts",
   "post": {
     "authors": [
@@ -18,11 +18,11 @@
       }
     ],
     "extraProps": [],
-    "title": "Personalize Colagem de Fotos",
+    "date": "2025-03-08",
+    "slug": "personalize-nome-com-aviao",
+    "content": "<p>Você pode alterar o nome, a cor do avião e a cor de fundo conforme sua preferência.</p>",
+    "title": "Personalize Volta ao Mundo Manuscrita",
     "excerpt": "69,99",
-    "date": "2025-03-02",
-    "slug": "colagem-fotos-",
-    "content": "<p><br>É possível alterar a cor de fundo conforme sua preferência.<br>Pelo Instagram, você deverá informar as fotos que deseja incluir.</p>",
-    "image": "https://data.decoassets.com/bloom-case/e2b638e9-86b4-413f-b63a-3de28ca1aa5b/customizacao---Colagem-de-Fotos.png"
+    "image": "https://data.decoassets.com/bloom-case/3c59250c-5353-4403-9a3a-fc89bf64514e/Nome--Aviao.png"
   }
 }

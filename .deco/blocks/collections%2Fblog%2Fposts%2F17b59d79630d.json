@@ -1,5 +1,5 @@
 {
-  "name": "collections/blog/posts/dd5414baac75",
+  "name": "collections/blog/posts/17b59d79630d",
   "__resolveType": "blog/loaders/Blogpost.ts",
   "post": {
     "authors": [
@@ -18,11 +18,11 @@
       }
     ],
     "extraProps": [],
-    "title": "Personalize Colagem de Fotos",
+    "date": "2025-03-08",
+    "slug": "personalize-fotos-data-nome",
+    "content": "<p>Você pode alterar a foto, a data, o texto e a cor de fundo conforme sua preferência.</p>",
     "excerpt": "69,99",
-    "date": "2025-03-02",
-    "slug": "colagem-fotos-",
-    "content": "<p><br>É possível alterar a cor de fundo conforme sua preferência.<br>Pelo Instagram, você deverá informar as fotos que deseja incluir.</p>",
-    "image": "https://data.decoassets.com/bloom-case/e2b638e9-86b4-413f-b63a-3de28ca1aa5b/customizacao---Colagem-de-Fotos.png"
+    "title": "Personalize Colagem Fotos + Data Especial + Nome",
+    "image": "https://data.decoassets.com/bloom-case/c4a32189-c6b2-40dc-9db3-ccb34cfa04c9/Colagem-Fotos--Data--Nome.png"
   }
 }

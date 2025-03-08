@@ -13,10 +13,6 @@
     ],
     "categories": [
       {
-        "name": "Foto Real",
-        "slug": "foto-real"
-      },
-      {
         "name": "Wallpaper",
         "slug": "wallpaper"
       }

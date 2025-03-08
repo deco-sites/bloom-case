@@ -1,5 +1,5 @@
 {
-  "name": "collections/blog/posts/dd5414baac75",
+  "name": "collections/blog/posts/3ef1cb3c9a1c",
   "__resolveType": "blog/loaders/Blogpost.ts",
   "post": {
     "authors": [
@@ -18,11 +18,11 @@
       }
     ],
     "extraProps": [],
-    "title": "Personalize Colagem de Fotos",
+    "date": "2025-03-08",
+    "slug": "personalize-foto-e-coracao",
+    "content": "<p>Você pode alterar a foto, a cor do coração e a cor de fundo conforme sua preferência.</p>",
     "excerpt": "69,99",
-    "date": "2025-03-02",
-    "slug": "colagem-fotos-",
-    "content": "<p><br>É possível alterar a cor de fundo conforme sua preferência.<br>Pelo Instagram, você deverá informar as fotos que deseja incluir.</p>",
-    "image": "https://data.decoassets.com/bloom-case/e2b638e9-86b4-413f-b63a-3de28ca1aa5b/customizacao---Colagem-de-Fotos.png"
+    "title": "Personalize Foto + Coração",
+    "image": "https://data.decoassets.com/bloom-case/ec6dfa45-b8cb-455f-a44b-a821dc5f6fb7/Colagem-Foto--Coracao.png"
   }
 }
