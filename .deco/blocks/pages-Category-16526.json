@@ -19,10 +19,10 @@
           "__resolveType": "website/functions/requestToParam.ts",
           "param": "category"
         },
-        "count": 16
+        "count": 50
       },
       "pagination": {
-        "perPage": 16
+        "perPage": 50
       }
     },
     {

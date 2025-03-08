@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/7729c7c5ec04",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Futebol",
+        "slug": "futebol"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-03-08",
+    "slug": "flamengo-colagem",
+    "content": "<p> </p>",
+    "excerpt": "69,99",
+    "title": "Case Flamengo Colagens",
+    "image": "https://data.decoassets.com/bloom-case/5f353fe7-f09e-4c03-85d2-8d91f3c66cc0/Flamengo---Colagem.png"
+  }
+}

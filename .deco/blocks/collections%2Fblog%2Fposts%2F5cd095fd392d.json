@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/5cd095fd392d",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Futebol",
+        "slug": "futebol"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-03-08",
+    "slug": "flamengo-metade-coracao",
+    "content": "<p> </p>",
+    "title": "Case Flamengo Metade  Coração",
+    "excerpt": "69,99",
+    "image": "https://data.decoassets.com/bloom-case/4710a628-ed62-4659-9afb-70ad520ec645/Flamengo---Metade-Coracao.png"
+  }
+}
