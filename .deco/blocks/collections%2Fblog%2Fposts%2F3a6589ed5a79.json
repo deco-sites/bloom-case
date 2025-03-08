@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/3a6589ed5a79",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Futebol",
+        "slug": "futebol"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-03-08",
+    "slug": "sao-paulo-1930",
+    "content": "<p> </p>",
+    "excerpt": "69,99",
+    "title": "Case São Paulo 1930",
+    "image": "https://data.decoassets.com/bloom-case/7678b060-60e4-4bd7-8ec0-3adccb3dc1e0/Sao-Paulo-1930.png"
+  }
+}
