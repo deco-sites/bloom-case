@@ -4,39 +4,39 @@
     "links": [
       {
         "label": "Religião",
-        "url": "/religiao"
+        "url": "https://bloom-case.deco.site/religiao"
       },
       {
-        "url": "/arte",
+        "url": "https://bloom-case.deco.site/arte",
         "label": "Arte"
       },
       {
         "label": "Colagem",
-        "url": "colagem"
+        "url": "https://bloom-case.deco.site/colagem"
       },
       {
         "label": "Natureza",
-        "url": "natureza"
+        "url": "https://bloom-case.deco.site/natureza"
       },
       {
         "label": "Wallpaper",
-        "url": "wallpaper"
+        "url": "https://bloom-case.deco.site/wallpaper"
       },
       {
         "label": "Futebol",
-        "url": "futebol"
+        "url": "https://bloom-case.deco.site/futebol"
       },
       {
         "label": "Ilustração",
-        "url": "ilustracao"
+        "url": "https://bloom-case.deco.site/ilustracao"
       },
       {
         "label": "Gamer",
-        "url": "gamer"
+        "url": "https://bloom-case.deco.site/gamer"
       },
       {
         "label": "Customização",
-        "url": "/customization"
+        "url": "https://bloom-case.deco.site/customization"
       }
     ],
     "buttons": []

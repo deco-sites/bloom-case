@@ -111,14 +111,6 @@ export default function Footer({
       <div class="lg:container lg:mx-auto md:max-w-6xl mx-4 pt-16 text-sm">
         <div class="flex flex-col gap-20">
           <div class="flex flex-col gap-6 lg:flex-row">
-            <div>
-              <Image
-                src={logo.src || ""}
-                width={150}
-                height={150}
-                alt={logo.alt}
-              />
-            </div>
             <div class="flex gap-9">
               {links?.map((link) => (
                 <div>
@@ -135,7 +127,7 @@ export default function Footer({
               ))}
             </div>
           </div>
-          <div class="border-primary border-t flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center py-8">
+          <div class="flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center py-8">
             <div class="flex flex-col gap-4 items-center lg:flex-row lg:gap-6">
               <a
                 href={madeWith?.href}

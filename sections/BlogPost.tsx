@@ -89,30 +89,37 @@ export default function BlogPost({ page, stock }: Props) {
   })
 
   return (
-    <div className="w-[90%] mx-auto max-w-[1300px] md:flex md:flex-wrap md:justify-center items-start md:gap-4 container mx-auto px-4 md:px-0 py-4 lg:py-5">
-      <Image
-        className="w-full md:w-2/3 object-cover max-h-[500px] max-w-[500px] rounded-2xl"
-        width={600}
-        src={image || ""}
-      />
-      <div className="md:w-1/3">
-        <div className="mt-4 w-full flex flex-col gap-5 max-w-3xl lg:mx-auto">
-          <h1 className="text-xl font-normal uppercase">{title}</h1>
-          <h2 className="text-xl font-bold mb-5">R$ {excerpt}</h2>
-        </div>
-        <div>
-          <p class="text-sm mb-1">Disponível para: </p>
-          <div class="flex gap-1 mb-4 flex-wrap">
-            {
-              modelsWithStock.map((device) => <div class="border border-gray-400 text-gray-400 w-fit p-1 text-xs">{device}</div>)
-            }
+    <div>
+      <div className="w-[90%] mx-auto max-w-[1300px] md:flex md:flex-wrap md:justify-center items-start md:gap-4 container mx-auto px-4 md:px-0 py-4 lg:py-5">
+        <Image
+          className="w-full md:w-2/3 object-cover max-h-[500px] max-w-[500px] rounded-2xl"
+          width={600}
+          src={image || ""}
+        />
+        <div className="md:w-1/3">
+          <div className="mt-4 w-full flex flex-col gap-5 max-w-3xl lg:mx-auto">
+            <h1 className="text-xl font-normal uppercase">{title}</h1>
+            <h2 className="text-xl font-bold mb-5">R$ {excerpt}</h2>
           </div>
+          <div>
+            <p class="text-sm mb-1">Disponível para: </p>
+            <div class="flex gap-1 mb-4 flex-wrap">
+              {
+                modelsWithStock.map((device) => <div class="border border-gray-400 text-gray-400 w-fit p-1 text-xs">{device}</div>)
+              }
+            </div>
+          </div>
+
+          <a href="https://www.instagram.com/bloomcasebrasil/" target="_blank" class="bg-[#608c82] cursor-pointer text-white w-full md:w-[230px] text-center p-2 block">Comprar</a>
+          <p className="text-xs text-gray-500 italic font-light mt-2">Após clicar em comprar, você será redirecionado(a) para nosso Instagram onde poderá seguir com a sua compra.</p>
         </div>
-
-        <a href="https://www.instagram.com/bloomcasebrasil/" target="_blank" class="bg-[#608c82] cursor-pointer text-white w-full md:w-[230px] text-center p-2 block">Comprar</a>
-        <p className="text-xs text-gray-500 italic font-light mt-2">Após clicar em comprar, você será redirecionado(a) para nosso Instagram onde poderá seguir com a sua compra.</p>
       </div>
-
+      {  content.length > 10 && (
+        <div class="w-[90%] mx-auto max-w-[1300px] my-10 block border-t border-[#e9e8e8] py-4">
+            <h3 class="text-[#383838] w-fit bg-slate-100 p-2 rounded-lg">Descrição</h3>
+            <p class="mt-6 text-[#929292]" dangerouslySetInnerHTML={{ __html: content }} ></p>
+        </div>
+      ) }
     </div>
   );
 }
