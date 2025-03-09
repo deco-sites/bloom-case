@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/a88aedf945be",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Religiao",
+        "slug": "religiao"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-03-09",
+    "slug": "leao-e-cordeiro",
+    "content": "<p> </p>",
+    "image": "https://data.decoassets.com/bloom-case/52467793-5132-4a3d-b1be-2a54d910120b/Leao-e-Cordeiro.png",
+    "excerpt": "69,99",
+    "title": "Case Leão e Cordeiro"
+  }
+}

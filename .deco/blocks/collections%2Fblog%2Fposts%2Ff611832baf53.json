@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/f611832baf53",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Religiao",
+        "slug": "religiao"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-03-09",
+    "slug": "nossa-senhora-contorno-rogai-por-nos",
+    "image": "https://data.decoassets.com/bloom-case/ca7b04d6-d875-451d-87db-3bafe9184190/Nossa-Senhora-Tracos-Rogai-Por-Nos.png",
+    "content": "<p> </p>",
+    "title": "Case Nossa Senhora Rogai Por Nós",
+    "excerpt": "69,99"
+  }
+}

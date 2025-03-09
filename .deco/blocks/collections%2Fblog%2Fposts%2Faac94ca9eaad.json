@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/aac94ca9eaad",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Religiao",
+        "slug": "religiao"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-03-09",
+    "slug": "jesus-cristo-carregando-a-cruz-ilustracao",
+    "content": "<p> </p>",
+    "image": "https://data.decoassets.com/bloom-case/012dff7d-9943-42d5-bfac-cd6584866074/Jesus-Cristo-Carregando-a-Cruz-Ilustracao.png",
+    "excerpt": "69,99",
+    "title": "Case Jesus Cristo Carregando a Cruz"
+  }
+}

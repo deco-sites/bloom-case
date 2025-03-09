@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/013912b6fd12",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Religiao",
+        "slug": "religiao"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-03-09",
+    "content": "<p> </p>",
+    "slug": "nossa-senhora-terco",
+    "title": "Case Nossa Senhora Terço",
+    "excerpt": "69,99",
+    "image": "https://data.decoassets.com/bloom-case/fa074827-ac53-4477-be29-1b0a55898341/Nossa-Senhora-Terco.png"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/02e9edd12c9b",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Religiao",
+        "slug": "religiao"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-03-09",
+    "slug": "cristo-e-a-lua",
+    "content": "<p> </p>",
+    "title": "Case Cristo e a Lua",
+    "excerpt": "69,99",
+    "image": "https://data.decoassets.com/bloom-case/00b15112-775f-4e07-9573-dcc6b67b3bde/Cristo-e-Lua.png"
+  }
+}

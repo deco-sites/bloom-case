@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/c7afe52a170a",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Religiao",
+        "slug": "religiao"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-03-09",
+    "content": "<p> </p>",
+    "slug": "jesus-cristo-ilustracao",
+    "image": "https://data.decoassets.com/bloom-case/6ae5809c-5458-4846-834b-44b945dc3749/Jesus-Cristo-Ilustracao.png",
+    "title": "Case Jesus Cristo Ilustração",
+    "excerpt": "69,99"
+  }
+}
