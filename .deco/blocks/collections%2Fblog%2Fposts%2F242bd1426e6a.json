@@ -1,0 +1,32 @@
+{
+  "name": "collections/blog/posts/242bd1426e6a",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Customização",
+        "slug": "customization"
+      },
+      {
+        "name": "Prefirdas por Elas",
+        "slug": "preferidas-por-elas"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-03-15",
+    "content": "<p>Personalize com o nome que preferir ou escolha uma frase.</p>",
+    "slug": "personalize-nome-borboletas-2",
+    "image": "https://data.decoassets.com/bloom-case/5802036d-d58e-4b59-842c-b42ba4db5265/customizacao---nome--borboletas-2.png",
+    "excerpt": "69,99",
+    "title": "Personalize Nome + Borboletas"
+  }
+}
