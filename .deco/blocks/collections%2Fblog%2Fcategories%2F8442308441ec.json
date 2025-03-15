@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/8442308441ec",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Prefirdas por Elas",
+    "slug": "preferidas-por-elas"
+  }
+}

@@ -15,10 +15,6 @@
         "url": "https://bloom-case.deco.site/colagem"
       },
       {
-        "label": "Natureza",
-        "url": "https://bloom-case.deco.site/natureza"
-      },
-      {
         "label": "Wallpaper",
         "url": "https://bloom-case.deco.site/wallpaper"
       },
@@ -31,12 +27,20 @@
         "url": "https://bloom-case.deco.site/ilustracao"
       },
       {
-        "label": "Gamer",
-        "url": "https://bloom-case.deco.site/gamer"
+        "label": "Natureza",
+        "url": "https://bloom-case.deco.site/natureza"
       },
       {
         "label": "Customização",
         "url": "https://bloom-case.deco.site/customization"
+      },
+      {
+        "label": "Gamer",
+        "url": "https://bloom-case.deco.site/gamer"
+      },
+      {
+        "label": "Preferidas por Elas",
+        "url": "https://bloom-case.deco.site/preferidas-por-elas"
       }
     ],
     "buttons": []

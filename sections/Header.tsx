@@ -113,18 +113,41 @@ export default function Haader({
           </div>
         </label>
 
-        <ul class="hidden items-center justify-between lg:flex">
+        <ul class="hidden items-center justify-between lg:flex relative">
           <ul class="flex">
-            {navigation.links.map((link) => (
-              <li>
-                <a
-                  href={link.url}
-                  aria-label={link.label}
-                  class="link no-underline hover:underline p-4"
-                >
-                  {link.label}
-                </a>
-              </li>
+            <li class="group pr-4">
+              <p class="link no-underline hover:underline">Categorias</p>
+              <ul class="hidden group-hover:block absolute bg-white w-[180px] shadow-md">
+              {navigation.links.map((link, index) => (
+                 <>
+                  { index >= 8 &&
+                    <li className={`my-2 pl-2 py-2 border-b border-b-gray-300 w-[180px] ${index == navigation.links.length - 1 ? 'border-b-0' : ''}`}>
+                      <a
+                        href={link.url}
+                        aria-label={link.label}
+                        class="link no-underline hover:underline"
+                      >
+                        {link.label}
+                      </a>
+                    </li>
+                  }
+                  </>
+                ))}
+              </ul>
+            </li>
+
+            {navigation.links.map((link, index) => (
+              <>
+                { index < 8 && <li>
+                    <a
+                      href={link.url}
+                      aria-label={link.label}
+                      class="link no-underline hover:underline p-4"
+                    >
+                      {link.label}
+                    </a>
+                  </li> }
+              </>
             ))}
           </ul>
           <ul class="flex gap-3">

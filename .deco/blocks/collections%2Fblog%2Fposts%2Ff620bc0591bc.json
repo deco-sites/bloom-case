@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/f620bc0591bc",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Prefirdas por Elas",
+        "slug": "preferidas-por-elas"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-03-15",
+    "slug": "lacos-rosas-3",
+    "content": "<p> </p>",
+    "image": "https://data.decoassets.com/bloom-case/70158d22-bb9a-4914-b51d-e37a6f530ab7/Lacos-Rosas-3.png",
+    "excerpt": "69,99",
+    "title": "Case Laços Rosas"
+  }
+}
