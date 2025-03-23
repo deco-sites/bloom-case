@@ -15,6 +15,10 @@
       {
         "name": "Customização",
         "slug": "customization"
+      },
+      {
+        "name": "Prefirdas por Elas",
+        "slug": "preferidas-por-elas"
       }
     ],
     "extraProps": [],
