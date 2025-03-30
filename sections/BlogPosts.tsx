@@ -44,7 +44,7 @@ export default function BlogPosts(
   {
     cta = { text: "Ver mais" },
     posts,
-    pagination: { page = 0, perPage = 6 } = {},
+    pagination: { page = 0, perPage = 20 } = {},
   }: Props,
 ) {
   const from = perPage * page;
@@ -58,7 +58,8 @@ export default function BlogPosts(
       pagination: { perPage, page: page + 1 },
     },
   });
-  
+
+ 
   let newPostOrder:BlogPost[] = []
   posts?.forEach((post) => {
     if (post.title?.includes("Personalize")) {
@@ -81,7 +82,7 @@ export default function BlogPosts(
       <>
         <div class="gap-3 md:gap-8 grid grid-cols-2 lg:grid-cols-4 md:grid-cols-2">
           {newPostOrder?.slice(from, to).map((post) => { 
-            if (post.categories.length > 0 && post.title.length > 0) {
+            if (post?.categories?.length > 0 && post?.title?.length > 0) {
               return (
                 <a
                   href={`/produto/${post.slug}`}
