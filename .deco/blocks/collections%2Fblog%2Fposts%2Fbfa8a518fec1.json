@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/bfa8a518fec1",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Customização",
+        "slug": "customization"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-04-12",
+    "slug": "personalize-duas-fotos",
+    "image": "https://assets.decocache.com/bloom-case/e6770d5b-ce60-4774-84ce-e42e604adcdd/personalizar-duas-fotos.png",
+    "excerpt": "69,99",
+    "title": "Personalize Duas Fotos",
+    "content": "<p>Você pode alterar a foto conforme sua preferência.</p><p></p><p><br></p>"
+  }
+}

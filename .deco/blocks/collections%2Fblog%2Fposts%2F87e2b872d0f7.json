@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/87e2b872d0f7",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Customização",
+        "slug": "customization"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-04-12",
+    "slug": "personalize-foto-com-legenda-i-love-my-girlfriend",
+    "content": "<p>Você pode alterar a foto conforme sua preferência.</p><p></p><p><br></p>",
+    "image": "https://assets.decocache.com/bloom-case/2d7e136b-2c4e-489a-9e3a-8b0a9ccf86a4/personalizar-namorados-foto-com-legenda-i-love-my-girlfriend.png",
+    "excerpt": "69,99",
+    "title": "Personalize Foto com Legenda I Love My Girlfriend"
+  }
+}

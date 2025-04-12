@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/a23c833982e1",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Customização",
+        "slug": "customization"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-04-12",
+    "slug": "personalize-foto-no-retrato-e-coracao",
+    "content": "<p>Você pode alterar a foto e a cor de fundo conforme sua preferência.</p>",
+    "image": "https://assets.decocache.com/bloom-case/fffbdb45-2eec-421f-b5f4-0f3ee03b42c3/personalizar-namorados-foto-com-coracao.png",
+    "excerpt": "69,99",
+    "title": "Personalize Foto no Retrato"
+  }
+}

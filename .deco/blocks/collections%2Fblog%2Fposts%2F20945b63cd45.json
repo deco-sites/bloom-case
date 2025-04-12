@@ -1,0 +1,32 @@
+{
+  "name": "collections/blog/posts/20945b63cd45",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Bloom Case",
+        "jobTitle": "Author",
+        "company": "Bloom Case",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
+        "email": "bloomcasestore@gmail.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Wallpaper",
+        "slug": "wallpaper"
+      },
+      {
+        "name": "Prefirdas por Elas",
+        "slug": "preferidas-por-elas"
+      }
+    ],
+    "extraProps": [],
+    "date": "2025-04-12",
+    "slug": "nuvens-coloridas",
+    "content": "<p> </p>",
+    "excerpt": "69,99",
+    "title": "Case Nuvens Coloridas",
+    "image": "https://assets.decocache.com/bloom-case/aed89e7c-723e-42c7-9ba7-fb343b8667db/wallpaper-nuvens-cores-misturadas.png"
+  }
+}
