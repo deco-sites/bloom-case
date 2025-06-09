@@ -35,7 +35,7 @@
       "models": [
         {
           "name": "Soft",
-          "quantity": 3,
+          "quantity": 2,
           "showOnSite": true
         }
       ],
@@ -55,7 +55,7 @@
       "models": [
         {
           "name": "Soft",
-          "quantity": 3,
+          "quantity": 2,
           "showOnSite": true
         }
       ],
@@ -95,7 +95,7 @@
       "models": [
         {
           "name": "Soft",
-          "quantity": 6,
+          "quantity": 3,
           "showOnSite": true
         }
       ],
@@ -174,7 +174,7 @@
           "showOnSite": true
         }
       ],
-      "name": "Samsung 23 Ultra"
+      "name": "Samsung S23 Ultra"
     },
     {
       "models": [
@@ -184,7 +184,7 @@
           "showOnSite": true
         }
       ],
-      "name": "Samsung 23"
+      "name": "Samsung S23"
     },
     {
       "models": [
@@ -194,7 +194,7 @@
           "showOnSite": true
         }
       ],
-      "name": "Samsung 21 Ultra"
+      "name": "Samsung S21 Ultra"
     },
     {
       "models": [
@@ -204,7 +204,7 @@
           "showOnSite": true
         }
       ],
-      "name": "Samsung 21"
+      "name": "Samsung S21"
     }
   ]
 }

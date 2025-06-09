@@ -3,10 +3,7 @@
   "path": "/produto/:slug",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Tipbar"
-      }
+      "__resolveType": "Tipbar"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

@@ -3,38 +3,32 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Tipbar"
-      }
+      "__resolveType": "Tipbar"
     },
     {
       "__resolveType": "Header"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Benefits.tsx",
-        "differentials": [
-          {
-            "title": "Sem Logos Indesejadas",
-            "description": "Não colocamos nossa logo em sua Case",
-            "icon": "https://data.decoassets.com/bloom-case/ae831f64-3560-4f5f-8d00-d254e2f51a4d/Gemini_Generated_Image_di6y43di6y43di6y-removebg-preview.png"
-          },
-          {
-            "title": "Laterais Estampadas",
-            "description": "Com nossa máquina de sublimação, garantimos que as laterais da sua Case também estejam estampadas",
-            "icon": "https://data.decoassets.com/bloom-case/7fe77ce9-c6fc-4509-b924-1063a0aeefee/Gemini_Generated_Image_ym1imaym1imaym1i__1_-removebg-preview.png"
-          },
-          {
-            "title": "100% Personalizável",
-            "description": "Há possibilidade de você adicionar fotos da sua galeria de imagens sem custos adicionais. Nos chame no Instagram!",
-            "icon": "https://data.decoassets.com/bloom-case/b986ba79-0353-4148-be90-5392e514804b/Gemini_Generated_Image_9q4sb69q4sb69q4s__1_-removebg-preview.png"
-          }
-        ],
-        "mainTitle": " ",
-        "showTitle": false
-      }
+      "__resolveType": "site/sections/Benefits.tsx",
+      "differentials": [
+        {
+          "title": "Sem Logos Indesejadas",
+          "description": "Não colocamos nossa logo em sua Case",
+          "icon": "https://data.decoassets.com/bloom-case/ae831f64-3560-4f5f-8d00-d254e2f51a4d/Gemini_Generated_Image_di6y43di6y43di6y-removebg-preview.png"
+        },
+        {
+          "title": "Laterais Estampadas",
+          "description": "Com nossa máquina de sublimação, garantimos que as laterais da sua Case também estejam estampadas",
+          "icon": "https://data.decoassets.com/bloom-case/7fe77ce9-c6fc-4509-b924-1063a0aeefee/Gemini_Generated_Image_ym1imaym1imaym1i__1_-removebg-preview.png"
+        },
+        {
+          "title": "100% Personalizável",
+          "description": "Há possibilidade de você adicionar fotos da sua galeria de imagens sem custos adicionais. Nos chame no Instagram!",
+          "icon": "https://data.decoassets.com/bloom-case/b986ba79-0353-4148-be90-5392e514804b/Gemini_Generated_Image_9q4sb69q4sb69q4s__1_-removebg-preview.png"
+        }
+      ],
+      "mainTitle": " ",
+      "showTitle": false
     },
     {
       "__resolveType": "site/sections/BlogPosts.tsx",
